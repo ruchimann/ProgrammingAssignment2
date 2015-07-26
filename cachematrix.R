@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+##this function makes the special matric object which can cache the inverse of itself
+
 makeCacheMatrix <- function(x = matrix()) {
     m=NULL
     set <- function(y) {
@@ -21,6 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+##this function checks to see whether cached object exist , if exist return else
+##create inverse and cache and return value
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
